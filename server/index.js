@@ -18,6 +18,7 @@ const port = process.env.PORT || 3801;
 const databaseURL =  process.env.DATABASE_URL;
 
 app.use(cors({
+    origin:"https://chat-app-frontend-o0vz.onrender.com",
     methods:["GET","POST","PUT","PATCH","DELETE"],
     credentials: true,
 }));
