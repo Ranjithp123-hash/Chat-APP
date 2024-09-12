@@ -1,4 +1,4 @@
-export const HOST = "https://chat-app-backend-znh6.onrender.com";
+export const HOST = "https://chat-backend-api-c8zm.onrender.com";
 
 export const AUTH_ROUTES = "api/auth";
 
